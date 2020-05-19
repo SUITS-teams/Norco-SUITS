@@ -1,0 +1,9 @@
+
+=== Thu Mar 19 16:04:40 2020
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.xr.oculus.standalone from version 1.38.4 to 2.38.4
+  com.unity.xr.openvr.standalone from version 1.0.5 to 2.0.5

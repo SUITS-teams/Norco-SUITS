@@ -1,0 +1,1 @@
+If you change the color of the SuitUI in the SpriteRenderer, it will change the color of it's chest. DO NOT CHANGE OR MESS WITH THE PREFAB

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 1a68239b25eb2eb4a8d1ff3fc51b7b13
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Arame
+  fontNames:
+  - Arame
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 86d42fabbe848b0408de7b5c57132b7f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
