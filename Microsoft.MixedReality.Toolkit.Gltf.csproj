@@ -55,59 +55,59 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\AssemblyInfo.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\Extensions\GltfExtension.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\Extensions\KHR_Materials_PbrSpecularGlossiness.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAccessor.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAccessorAttributeType.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAccessorSparse.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAccessorSparseIndices.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAccessorSparseValues.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAlphaMode.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAnimation.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAnimationChannel.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAnimationChannelPath.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAnimationChannelTarget.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAnimationSampler.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAssetInfo.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfBuffer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfBufferView.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfBufferViewTarget.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfCamera.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfCameraOrthographic.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfCameraPerspective.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfCameraType.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfChildOfRootProperty.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfComponentType.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfDrawMode.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfImage.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfInterpolationType.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfMagnificationFilterMode.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfMaterial.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfMaterialCommonConstant.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfMesh.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfMeshPrimitive.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfMeshPrimitiveAttributes.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfMinFilterMode.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfNode.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfNormalTextureInfo.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfObject.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfOcclusionTextureInfo.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfPbrMetallicRoughness.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfProperty.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfSampler.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfScene.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfSkin.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfTexture.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfTextureInfo.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfWrapMode.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Serialization\ColliderType.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Serialization\ConstructGltf.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Serialization\GltfAsset.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Serialization\GltfChunkType.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Serialization\GltfConversions.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Serialization\GltfUtility.cs" />
-     <None Include="Assets\MRTK\MixedRealityToolkit\Utilities\Gltf\Microsoft.MixedReality.Toolkit.Gltf.asmdef" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\AssemblyInfo.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\Extensions\GltfExtension.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\Extensions\KHR_Materials_PbrSpecularGlossiness.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAccessor.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAccessorAttributeType.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAccessorSparse.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAccessorSparseIndices.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAccessorSparseValues.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAlphaMode.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAnimation.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAnimationChannel.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAnimationChannelPath.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAnimationChannelTarget.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAnimationSampler.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfAssetInfo.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfBuffer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfBufferView.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfBufferViewTarget.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfCamera.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfCameraOrthographic.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfCameraPerspective.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfCameraType.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfChildOfRootProperty.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfComponentType.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfDrawMode.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfImage.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfInterpolationType.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfMagnificationFilterMode.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfMaterial.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfMaterialCommonConstant.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfMesh.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfMeshPrimitive.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfMeshPrimitiveAttributes.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfMinFilterMode.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfNode.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfNormalTextureInfo.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfObject.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfOcclusionTextureInfo.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfPbrMetallicRoughness.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfProperty.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfSampler.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfScene.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfSkin.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfTexture.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfTextureInfo.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Schema\GltfWrapMode.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Serialization\ColliderType.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Serialization\ConstructGltf.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Serialization\GltfAsset.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Serialization\GltfChunkType.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Serialization\GltfConversions.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Serialization\GltfUtility.cs" />
+     <None Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Gltf\Microsoft.MixedReality.Toolkit.Gltf.asmdef" />
  <Reference Include="UnityEditor.UI">
  <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
@@ -307,19 +307,19 @@
  <HintPath>F:/Unity Engine File 2/Editor/2019.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.Windows.MixedReality.DotNetWinRT">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/Microsoft.Windows.MixedReality.DotNetWinRT.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/Microsoft.Windows.MixedReality.DotNetWinRT.dll</HintPath>
  </Reference>
  <Reference Include="System.Drawing.Primitives">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/System.Drawing.Primitives.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/System.Drawing.Primitives.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.CognitiveServices.Speech.csharp">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/SpeechSDK/Plugins/x86_64/Microsoft.CognitiveServices.Speech.csharp.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/SpeechSDK/Plugins/x86_64/Microsoft.CognitiveServices.Speech.csharp.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>F:/Unity Engine File 2/Editor/2019.3.5f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

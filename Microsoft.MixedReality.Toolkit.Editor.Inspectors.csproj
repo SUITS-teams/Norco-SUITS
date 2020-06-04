@@ -55,83 +55,83 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\AssemblyInfo.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\ClippingBoxInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\ClippingPlaneInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\ClippingPrimitiveInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\ClippingSphereInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\ControllerPopupWindow.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Data\ControllerInputActionOption.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Data\ControllerInputActionOptions.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\HoverLightInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\MixedRealityShaderGUI.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\MixedRealityStandardShaderGUI.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\MixedRealityTextMeshProShaderGUI.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\MixedRealityToolkitFacadeHandler.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\MixedRealityToolkitInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\MixedRealityToolkitShaderGUIUtilities.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\MixedRealityWireframeShaderGUI.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\BaseMixedRealityProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\BaseMixedRealityToolkitConfigurationProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityBoundaryVisualizationProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityCameraProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityControllerMappingProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityControllerVisualizationProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityDiagnosticsSystemProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityEyeTrackingProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityGesturesProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityHandTrackingProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityInputActionRulesInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityInputActionsProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityInputSystemProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityMouseInputProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityPointerProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityProfileCloneWindow.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityRegisteredServiceProviderProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealitySceneSystemProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealitySpatialAwarenessMeshObserverProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealitySpatialAwarenessSystemProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealitySpeechCommandsProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityToolkitConfigurationProfileInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\EnumFlagsAttributeDrawer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\ExperimentalDrawer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\HelpDrawer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\InputActionPropertyDrawer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\MixedRealityPosePropertyDrawer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\PhysicsLayerAttributeDrawer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\PrefabPropertyDrawer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\SceneAssetReferenceAttributeDrawer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\SceneInfoDrawer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\SceneInfoUtils.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\ScenePickPropertyDrawer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\SelectRepairedTypeWindow.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\SpeechCommandPropertyDrawer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\TagPropertyDrawer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\TypeReferencePropertyDrawer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\Vector3RangePropertyDrawer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\ProximityLightInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Setup\MixedRealityEditorSettings.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Setup\MixedRealityProjectConfiguratorWindow.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\InspectorFieldsUtility.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\InspectorUIUtility.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\BaseLineDataProviderInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\BezierDataProviderInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\EllipseLineDataProviderInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\ParabolaPhysicalLineDataProviderInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\ParabolicConstrainedLineDataProviderInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\RectangleLineDataProviderInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\SimpleLineDataProviderInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\SplineDataProviderInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\MixedRealityInspectorUtility.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\MixedRealityProfileUtility.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\MixedRealityStylesUtility.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\Search\FieldSearchResult.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\Search\MixedRealitySearchInspectorUtility.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\Search\MixedRealitySearchUtility.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\Search\ProfileSearchResult.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\Search\SearchConfig.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Utilities\Text3DShaderGUI.cs" />
-     <None Include="Assets\MRTK\MixedRealityToolkit\Inspectors\Microsoft.MixedReality.Toolkit.Editor.Inspectors.asmdef" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\AssemblyInfo.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\ClippingBoxInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\ClippingPlaneInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\ClippingPrimitiveInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\ClippingSphereInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\ControllerPopupWindow.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Data\ControllerInputActionOption.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Data\ControllerInputActionOptions.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\HoverLightInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\MixedRealityShaderGUI.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\MixedRealityStandardShaderGUI.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\MixedRealityTextMeshProShaderGUI.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\MixedRealityToolkitFacadeHandler.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\MixedRealityToolkitInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\MixedRealityToolkitShaderGUIUtilities.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\MixedRealityWireframeShaderGUI.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\BaseMixedRealityProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\BaseMixedRealityToolkitConfigurationProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityBoundaryVisualizationProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityCameraProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityControllerMappingProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityControllerVisualizationProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityDiagnosticsSystemProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityEyeTrackingProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityGesturesProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityHandTrackingProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityInputActionRulesInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityInputActionsProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityInputSystemProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityMouseInputProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityPointerProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityProfileCloneWindow.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityRegisteredServiceProviderProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealitySceneSystemProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealitySpatialAwarenessMeshObserverProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealitySpatialAwarenessSystemProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealitySpeechCommandsProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Profiles\MixedRealityToolkitConfigurationProfileInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\EnumFlagsAttributeDrawer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\ExperimentalDrawer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\HelpDrawer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\InputActionPropertyDrawer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\MixedRealityPosePropertyDrawer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\PhysicsLayerAttributeDrawer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\PrefabPropertyDrawer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\SceneAssetReferenceAttributeDrawer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\SceneInfoDrawer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\SceneInfoUtils.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\ScenePickPropertyDrawer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\SelectRepairedTypeWindow.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\SpeechCommandPropertyDrawer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\TagPropertyDrawer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\TypeReferencePropertyDrawer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\PropertyDrawers\Vector3RangePropertyDrawer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\ProximityLightInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Setup\MixedRealityEditorSettings.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Setup\MixedRealityProjectConfiguratorWindow.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\InspectorFieldsUtility.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\InspectorUIUtility.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\BaseLineDataProviderInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\BezierDataProviderInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\EllipseLineDataProviderInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\ParabolaPhysicalLineDataProviderInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\ParabolicConstrainedLineDataProviderInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\RectangleLineDataProviderInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\SimpleLineDataProviderInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\Lines\DataProviders\SplineDataProviderInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\MixedRealityInspectorUtility.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\MixedRealityProfileUtility.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\MixedRealityStylesUtility.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\Search\FieldSearchResult.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\Search\MixedRealitySearchInspectorUtility.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\Search\MixedRealitySearchUtility.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\Search\ProfileSearchResult.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\Search\SearchConfig.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Utilities\Text3DShaderGUI.cs" />
+     <None Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Inspectors\Microsoft.MixedReality.Toolkit.Editor.Inspectors.asmdef" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -340,19 +340,19 @@
  <HintPath>F:/Unity Engine File 2/Editor/2019.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.Windows.MixedReality.DotNetWinRT">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/Microsoft.Windows.MixedReality.DotNetWinRT.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/Microsoft.Windows.MixedReality.DotNetWinRT.dll</HintPath>
  </Reference>
  <Reference Include="System.Drawing.Primitives">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/System.Drawing.Primitives.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/System.Drawing.Primitives.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.CognitiveServices.Speech.csharp">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/SpeechSDK/Plugins/x86_64/Microsoft.CognitiveServices.Speech.csharp.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/SpeechSDK/Plugins/x86_64/Microsoft.CognitiveServices.Speech.csharp.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

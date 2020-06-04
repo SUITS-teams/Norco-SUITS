@@ -55,39 +55,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CurvedUI\Scripts\Editor\ConditionalCompilationUtility.cs" />
-     <Compile Include="Assets\CurvedUI\Scripts\Editor\CurvedUIHandSwitcherEditor.cs" />
-     <Compile Include="Assets\CurvedUI\Scripts\Editor\CurvedUIInputModuleEditor.cs" />
-     <Compile Include="Assets\CurvedUI\Scripts\Editor\CurvedUIScriptOrder.cs" />
-     <Compile Include="Assets\CurvedUI\Scripts\Editor\CurvedUISettingsEditor.cs" />
-     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\AudioImportPostProcessor.cs" />
-     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\AudioManagerInspector.cs" />
-     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\MinMaxPropertyDrawer.cs" />
-     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\MixerSnapshotPropertyDrawer.cs" />
-     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\OSPPropsPropertyDrawer.cs" />
-     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\SoundFXPropertyDrawer.cs" />
-     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\SoundFXRefPropertyDrawer.cs" />
-     <Compile Include="Assets\Oculus\AudioManager\Scripts\Utils\Editor\DrawerInspectorNote.cs" />
-     <Compile Include="Assets\Oculus\LipSync\Editor\OVRLipSyncBuildPostProcessor.cs" />
-     <Compile Include="Assets\Oculus\LipSync\Editor\OVRLipSyncContextMorphTargetEditor.cs" />
-     <Compile Include="Assets\Oculus\LipSync\Editor\OVRLipSyncTool.cs" />
-     <Compile Include="Assets\Oculus\LipSync\Editor\OVRNamedArrayPropertyDrawer.cs" />
-     <Compile Include="Assets\Oculus\Platform\Editor\GUIHelper.cs" />
-     <Compile Include="Assets\Oculus\Platform\Editor\OculusPlatformSettingsEditor.cs" />
-     <Compile Include="Assets\Oculus\Platform\Editor\OculusPluginUpdaterStub.cs" />
-     <Compile Include="Assets\Oculus\Platform\Editor\OculusStandalonePlatformResponse.cs" />
-     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Editor\HandsEditor.cs" />
-     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\Editor\TeleportTransitionWarpInspector.cs" />
-     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Editor\AndroidVideoEditorUtil.cs" />
-     <Compile Include="Assets\Oculus\SampleFramework\Editor\BuildAssetPackages.cs" />
-     <Compile Include="Assets\Oculus\SampleFramework\Editor\OculusSampleFrameworkUtil.cs" />
-     <Compile Include="Assets\Oculus\Spatializer\editor\ONSPAudioPluginUpdater.cs" />
-     <Compile Include="Assets\Oculus\Spatializer\editor\ONSPAudioPluginUpdaterStub.cs" />
-     <Compile Include="Assets\Oculus\Spatializer\editor\ONSPAudioSourceEditor.cs" />
-     <Compile Include="Assets\Oculus\Spatializer\editor\ONSPPropagationGeometryEditor.cs" />
-     <Compile Include="Assets\Oculus\Spatializer\editor\ONSPPropagationMaterialEditor.cs" />
-     <Compile Include="Assets\Oculus\Spatializer\editor\ONSPPropagationSerializationManager.cs" />
-     <Compile Include="Assets\Oculus\Spatializer\editor\ONSPReflectionCustomGUI.cs" />
+     <Compile Include="Assets\3rd Party\CurvedUI\Scripts\Editor\ConditionalCompilationUtility.cs" />
+     <Compile Include="Assets\3rd Party\CurvedUI\Scripts\Editor\CurvedUIHandSwitcherEditor.cs" />
+     <Compile Include="Assets\3rd Party\CurvedUI\Scripts\Editor\CurvedUIInputModuleEditor.cs" />
+     <Compile Include="Assets\3rd Party\CurvedUI\Scripts\Editor\CurvedUIScriptOrder.cs" />
+     <Compile Include="Assets\3rd Party\CurvedUI\Scripts\Editor\CurvedUISettingsEditor.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\AudioManager\Scripts\Audio\Editor\AudioImportPostProcessor.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\AudioManager\Scripts\Audio\Editor\AudioManagerInspector.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\AudioManager\Scripts\Audio\Editor\MinMaxPropertyDrawer.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\AudioManager\Scripts\Audio\Editor\MixerSnapshotPropertyDrawer.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\AudioManager\Scripts\Audio\Editor\OSPPropsPropertyDrawer.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\AudioManager\Scripts\Audio\Editor\SoundFXPropertyDrawer.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\AudioManager\Scripts\Audio\Editor\SoundFXRefPropertyDrawer.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\AudioManager\Scripts\Utils\Editor\DrawerInspectorNote.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\LipSync\Editor\OVRLipSyncBuildPostProcessor.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\LipSync\Editor\OVRLipSyncContextMorphTargetEditor.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\LipSync\Editor\OVRLipSyncTool.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\LipSync\Editor\OVRNamedArrayPropertyDrawer.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\Platform\Editor\GUIHelper.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\Platform\Editor\OculusPlatformSettingsEditor.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\Platform\Editor\OculusPluginUpdaterStub.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\Platform\Editor\OculusStandalonePlatformResponse.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\SampleFramework\Core\HandsInteraction\Editor\HandsEditor.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\SampleFramework\Core\Locomotion\Scripts\Editor\TeleportTransitionWarpInspector.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\SampleFramework\Core\Video\Editor\AndroidVideoEditorUtil.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\SampleFramework\Editor\BuildAssetPackages.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\SampleFramework\Editor\OculusSampleFrameworkUtil.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\Spatializer\editor\ONSPAudioPluginUpdater.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\Spatializer\editor\ONSPAudioPluginUpdaterStub.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\Spatializer\editor\ONSPAudioSourceEditor.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\Spatializer\editor\ONSPPropagationGeometryEditor.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\Spatializer\editor\ONSPPropagationMaterialEditor.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\Spatializer\editor\ONSPPropagationSerializationManager.cs" />
+     <Compile Include="Assets\3rd Party\Oculus\Spatializer\editor\ONSPReflectionCustomGUI.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
@@ -317,19 +317,19 @@
  <HintPath>F:/Unity Engine File 2/Editor/2019.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.Windows.MixedReality.DotNetWinRT">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/Microsoft.Windows.MixedReality.DotNetWinRT.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/Microsoft.Windows.MixedReality.DotNetWinRT.dll</HintPath>
  </Reference>
  <Reference Include="System.Drawing.Primitives">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/System.Drawing.Primitives.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/System.Drawing.Primitives.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.CognitiveServices.Speech.csharp">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/SpeechSDK/Plugins/x86_64/Microsoft.CognitiveServices.Speech.csharp.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/SpeechSDK/Plugins/x86_64/Microsoft.CognitiveServices.Speech.csharp.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

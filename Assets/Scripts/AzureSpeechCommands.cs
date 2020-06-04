@@ -110,18 +110,15 @@ public class AzureSpeechCommands : MonoBehaviour {
             }
             if (message.ToLower ().Contains ("close") && isSettingsOpen == true) {
                 settingsPanel.SetActive (false);
-                CompletedAction ();
                 isListening = false;
                 isSettingsOpen = false;
             }
             if (message.ToLower ().Contains ("telemetry") && isTelemetryOpen == false && !message.ToLower ().Contains ("close") && isListening == true) {
                 telemetryPanel.SetActive (true);
                 isTelemetryOpen = true;
-                CompletedAction ();
             }
             if (message.ToLower ().Contains ("close") && isTelemetryOpen == true) {
                 telemetryPanel.SetActive (false);
-                CompletedAction ();
                 isListening = false;
                 isTelemetryOpen = false;
             }
@@ -135,31 +132,12 @@ public class AzureSpeechCommands : MonoBehaviour {
     }
 
     void ActivateJarvis () {
-        int rannum = Random.Range (0, 3);
+        int rannum = Random.Range (0, 2);
         if (rannum == 0) {
             audio.PlayOneShot ((AudioClip) Resources.Load ("atYourService"));
         }
         if (rannum == 1) {
             audio.PlayOneShot ((AudioClip) Resources.Load ("greetingsSir"));
-        }
-        if (rannum == 2) {
-            audio.PlayOneShot ((AudioClip) Resources.Load ("ifYouNeedAnything"));
-        }
-    }
-
-    void CompletedAction () {
-        int rannum = Random.Range (0, 4);
-        if (rannum == 0) {
-            audio.PlayOneShot ((AudioClip) Resources.Load ("done"));
-        }
-        if (rannum == 1) {
-            audio.PlayOneShot ((AudioClip) Resources.Load ("enjoy"));
-        }
-        if (rannum == 2) {
-            audio.PlayOneShot ((AudioClip) Resources.Load ("myPleasure"));
-        }
-        if (rannum == 3) {
-            audio.PlayOneShot ((AudioClip) Resources.Load ("asYouWish"));
         }
     }
 

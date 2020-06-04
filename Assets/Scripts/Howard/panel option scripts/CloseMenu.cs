@@ -5,10 +5,10 @@ using UnityEngine;
 public class CloseMenu : MonoBehaviour
 {
     public GameObject panelRoot;
-    public GameObject menuRanderer;
     
     //===== varibles for close to an anchor to internal UI (hand anchor) ==========
     public bool closeToInternalUi = false;
+    public GameObject menuRanderer;
     public AnchorUiManager changeAnchor;
     public GameObject closedMenu;
 
@@ -16,7 +16,7 @@ public class CloseMenu : MonoBehaviour
     private Vector3 iniPosition;
     //=============================================================================
 
-    void Start()
+    void Awake()
     {
         closedMenu.SetActive(false);
         iniPosition = this.transform.localPosition;

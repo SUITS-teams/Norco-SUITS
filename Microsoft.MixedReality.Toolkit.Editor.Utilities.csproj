@@ -55,24 +55,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\AssemblyDefinition.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\AssemblyInfo.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\EditorAssemblyReloadManager.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\EditorPreferences.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\EditorProjectUtilities.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\GUIEnabledWrapper.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\InputManagerAxis.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\InputManagerAxisType.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\InputMappingAxisUtility.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\MixedRealityOptimizeUtils.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\MixedRealityPreferences.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\PackageManifest\PackageManifestUpdater.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\ScriptedImporterAssetReimporter.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\Setup\MixedRealityProjectConfigurator.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\Setup\MixedRealityToolkitFiles.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\USB\USBDeviceInfo.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\USB\USBDeviceListener.cs" />
-     <None Include="Assets\MRTK\MixedRealityToolkit\Utilities\Editor\Microsoft.MixedReality.Toolkit.Editor.Utilities.asmdef" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\AssemblyDefinition.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\AssemblyInfo.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\EditorAssemblyReloadManager.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\EditorPreferences.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\EditorProjectUtilities.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\GUIEnabledWrapper.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\InputManagerAxis.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\InputManagerAxisType.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\InputMappingAxisUtility.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\MixedRealityOptimizeUtils.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\MixedRealityPreferences.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\PackageManifest\PackageManifestUpdater.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\ScriptedImporterAssetReimporter.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\Setup\MixedRealityProjectConfigurator.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\Setup\MixedRealityToolkitFiles.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\USB\USBDeviceInfo.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\USB\USBDeviceListener.cs" />
+     <None Include="Assets\3rd Party\MRTK\MixedRealityToolkit\Utilities\Editor\Microsoft.MixedReality.Toolkit.Editor.Utilities.asmdef" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -284,19 +284,19 @@
  <HintPath>F:/Unity Engine File 2/Editor/2019.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.Windows.MixedReality.DotNetWinRT">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/Microsoft.Windows.MixedReality.DotNetWinRT.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/Microsoft.Windows.MixedReality.DotNetWinRT.dll</HintPath>
  </Reference>
  <Reference Include="System.Drawing.Primitives">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/System.Drawing.Primitives.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/System.Drawing.Primitives.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.CognitiveServices.Speech.csharp">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/SpeechSDK/Plugins/x86_64/Microsoft.CognitiveServices.Speech.csharp.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/SpeechSDK/Plugins/x86_64/Microsoft.CognitiveServices.Speech.csharp.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

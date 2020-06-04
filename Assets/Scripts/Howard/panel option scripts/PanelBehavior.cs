@@ -5,13 +5,16 @@ using UnityEngine;
 public class PanelBehavior : MonoBehaviour
 {
     public Transform User;
+    public bool isButtonToggle;
+    public Transform panelTransform;
 
     private bool isLocked = false;
     
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         User = GameObject.Find("OVRCameraRig").transform;
+        if (panelTransform == null) { panelTransform = this.panelTransform; }
     }
 
     // Update is called once per frame
@@ -19,8 +22,8 @@ public class PanelBehavior : MonoBehaviour
     {
         if (!isLocked)
         {
-            this.transform.LookAt(User);
-            this.transform.eulerAngles = new Vector3(0, this.transform.eulerAngles.y + 180, 0);
+            panelTransform.transform.LookAt(User);
+            panelTransform.transform.eulerAngles = new Vector3(0, this.transform.eulerAngles.y + 180f, 0);
         }
     }
 

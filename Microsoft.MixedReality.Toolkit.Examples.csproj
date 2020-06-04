@@ -55,107 +55,107 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\AssemblyInfo.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\Audio\Scripts\LoFiFilterSelection.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\Boundary\Scripts\BoundaryVisualizationDemo.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoBasicSetup\Scripts\ColorTap.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoBasicSetup\Scripts\FollowEyeGazeGazeProvider.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses\PanZoomBase.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses\PanZoomBaseRectTransf.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses\PanZoomBaseTexture.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\PanZoomRectTransf.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\PanZoomTexture.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\ScrollRectTransf.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\ScrollTexture.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\TargetMoveToCamera.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetPositioning\Scripts\GrabReleaseDetector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetPositioning\Scripts\MoveObjByEyeGaze.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetPositioning\Scripts\SnapTo.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetPositioning\Scripts\TransportToRespawnLocation.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetPositioning\Scripts\TriggerZonePlaceObjsWithin.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetSelections\Scripts\HitBehaviorDestroyOnSelect.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetSelections\Scripts\RotateWithConstSpeedDir.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetSelections\Scripts\TargetGroupCreatorRadial.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetSelections\Scripts\TargetGroupIterator.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetSelections\Scripts\ToggleGameObject.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\AsyncHelpers.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\BasicInputLogger.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\CustomInputLogger.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\DrawOnTexture.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\InputPointerVisualizer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\LogStructure.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\LogStructureEyeGaze.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\OnSelectVisualizerInputController.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\ParticleHeatmap.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\ParticleHeatmapParticleData.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\UserInputPlayback.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\UserInputRecorder.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\UserInputRecorderFeedback.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\UserInputRecorderUIController.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\AudioFeedbackPlayer.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\FollowEyeGaze.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Input\SpeechVisualFeedback.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\BlendOut.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\ChangeSize.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\FaceUser.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\KeepFacingCamera.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\LoadAdditiveScene.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\MoveWithCamera.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\OnLoadStartScene.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\OnLookAtRotateByEyeGaze.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\OnLookAtShowHoverFeedback.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Targeting\DwellSelection.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Targeting\TargetEventArgs.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\ChangeRenderMode.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\DoNotRender.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\EyeCalibrationChecker.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\KeepThisAlive.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\LoadProfilesOnStartup.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\StatusText.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\TriggerOnStartup.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\Utils.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\ColorChanger.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\ColorChangerUnityUI.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\DebugTextOutput.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\DemoTouchButton.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\GestureTester.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\GrabTouchExample.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\HandInteractionTouch.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\HandInteractionTouchRotate.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\LaunchUri.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\RotateWithPan.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\SystemKeyboardExample.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\TetheredPlacement.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\ToggleBoundingBox.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\Input\Scenes\DisablePointers\DisablePointersExample.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\Input\Scenes\InputActions\Rotator.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\Input\Scenes\InputData\InputDataExample.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\Input\Scenes\InputData\InputDataExampleGizmo.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\Input\Scenes\PointerResult\SpawnOnPointerEvent.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\Input\Scenes\PrimaryPointer\PrimaryPointerHandlerExample.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\Solvers\Scripts\SolverExampleManager.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\SpatialAwareness\Scripts\ClearSpatialObservations.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\SpatialAwareness\Scripts\DemoSpatialMeshHandler.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\SpatialAwareness\Scripts\ToggleSpatialMeshVisualization.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\StandardShader\Scripts\MaterialMatrix.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\UX\BoundingBox\Scripts\BoundingBoxExampleTest.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\UX\Collections\Scripts\GridObjectLayoutControl.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\UX\ManipulationHandler\Scripts\ChangeManipulation.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\UX\Slider\Scripts\ShowSliderValue.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\UX\Slider\Scripts\SliderChangeColor.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\UX\Slider\Scripts\SliderLunarLander.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Demos\Utilities\Scripts\MixedRealityCapabilityDemo.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Experimental\Dwell\BaseDwellSample.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Experimental\Dwell\CustomDwellHandler.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Experimental\Dwell\DwellProfileWithDecay.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Experimental\Dwell\InstantDwellSample.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Experimental\Dwell\ListItemDwell.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Experimental\Dwell\ToggleDwellSample.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Experimental\HandMenuLayout\Prefabs\HandMenuSliderAssets\Scripts\UpdateSliderTrackLine.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Examples\Experimental\ScrollingObjectCollection\ScrollableListPopulator.cs" />
-     <None Include="Assets\MRTK\MixedRealityToolkit.Examples\License.txt" />
-     <None Include="Assets\MRTK\MixedRealityToolkit.Examples\Microsoft.MixedReality.Toolkit.Examples.asmdef" />
-     <None Include="Assets\MRTK\MixedRealityToolkit.Examples\Version.txt" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\AssemblyInfo.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\Audio\Scripts\LoFiFilterSelection.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\Boundary\Scripts\BoundaryVisualizationDemo.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoBasicSetup\Scripts\ColorTap.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoBasicSetup\Scripts\FollowEyeGazeGazeProvider.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses\PanZoomBase.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses\PanZoomBaseRectTransf.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\BaseClasses\PanZoomBaseTexture.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\PanZoomRectTransf.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\PanZoomTexture.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\ScrollRectTransf.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\ScrollTexture.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoScrollPanZoom\Scripts\TargetMoveToCamera.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetPositioning\Scripts\GrabReleaseDetector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetPositioning\Scripts\MoveObjByEyeGaze.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetPositioning\Scripts\SnapTo.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetPositioning\Scripts\TransportToRespawnLocation.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetPositioning\Scripts\TriggerZonePlaceObjsWithin.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetSelections\Scripts\HitBehaviorDestroyOnSelect.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetSelections\Scripts\RotateWithConstSpeedDir.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetSelections\Scripts\TargetGroupCreatorRadial.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetSelections\Scripts\TargetGroupIterator.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoTargetSelections\Scripts\ToggleGameObject.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\AsyncHelpers.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\BasicInputLogger.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\CustomInputLogger.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\DrawOnTexture.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\InputPointerVisualizer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\LogStructure.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\LogStructureEyeGaze.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\OnSelectVisualizerInputController.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\ParticleHeatmap.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\ParticleHeatmapParticleData.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\UserInputPlayback.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\UserInputRecorder.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\UserInputRecorderFeedback.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\DemoVisualizer\Scripts\UserInputRecorderUIController.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\AudioFeedbackPlayer.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\FollowEyeGaze.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Input\SpeechVisualFeedback.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\BlendOut.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\ChangeSize.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\FaceUser.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\KeepFacingCamera.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\LoadAdditiveScene.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\MoveWithCamera.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\OnLoadStartScene.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\OnLookAtRotateByEyeGaze.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\TargetBehaviors\OnLookAtShowHoverFeedback.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Targeting\DwellSelection.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Targeting\TargetEventArgs.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\ChangeRenderMode.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\DoNotRender.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\EyeCalibrationChecker.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\KeepThisAlive.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\LoadProfilesOnStartup.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\StatusText.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\TriggerOnStartup.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\EyeTracking\General\Scripts\Utils\Utils.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\ColorChanger.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\ColorChangerUnityUI.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\DebugTextOutput.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\DemoTouchButton.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\GestureTester.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\GrabTouchExample.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\HandInteractionTouch.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\HandInteractionTouchRotate.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\LaunchUri.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\RotateWithPan.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\SystemKeyboardExample.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\TetheredPlacement.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\HandTracking\Script\ToggleBoundingBox.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\Input\Scenes\DisablePointers\DisablePointersExample.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\Input\Scenes\InputActions\Rotator.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\Input\Scenes\InputData\InputDataExample.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\Input\Scenes\InputData\InputDataExampleGizmo.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\Input\Scenes\PointerResult\SpawnOnPointerEvent.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\Input\Scenes\PrimaryPointer\PrimaryPointerHandlerExample.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\Solvers\Scripts\SolverExampleManager.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\SpatialAwareness\Scripts\ClearSpatialObservations.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\SpatialAwareness\Scripts\DemoSpatialMeshHandler.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\SpatialAwareness\Scripts\ToggleSpatialMeshVisualization.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\StandardShader\Scripts\MaterialMatrix.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\UX\BoundingBox\Scripts\BoundingBoxExampleTest.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\UX\Collections\Scripts\GridObjectLayoutControl.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\UX\ManipulationHandler\Scripts\ChangeManipulation.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\UX\Slider\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\UX\Slider\Scripts\SliderChangeColor.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\UX\Slider\Scripts\SliderLunarLander.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Demos\Utilities\Scripts\MixedRealityCapabilityDemo.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Experimental\Dwell\BaseDwellSample.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Experimental\Dwell\CustomDwellHandler.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Experimental\Dwell\DwellProfileWithDecay.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Experimental\Dwell\InstantDwellSample.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Experimental\Dwell\ListItemDwell.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Experimental\Dwell\ToggleDwellSample.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Experimental\HandMenuLayout\Prefabs\HandMenuSliderAssets\Scripts\UpdateSliderTrackLine.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Experimental\ScrollingObjectCollection\ScrollableListPopulator.cs" />
+     <None Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\License.txt" />
+     <None Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Microsoft.MixedReality.Toolkit.Examples.asmdef" />
+     <None Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Examples\Version.txt" />
  <Reference Include="Unity.TextMeshPro">
  <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
@@ -358,19 +358,19 @@
  <HintPath>F:/Unity Engine File 2/Editor/2019.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.Windows.MixedReality.DotNetWinRT">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/Microsoft.Windows.MixedReality.DotNetWinRT.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/Microsoft.Windows.MixedReality.DotNetWinRT.dll</HintPath>
  </Reference>
  <Reference Include="System.Drawing.Primitives">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/System.Drawing.Primitives.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/System.Drawing.Primitives.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.CognitiveServices.Speech.csharp">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/SpeechSDK/Plugins/x86_64/Microsoft.CognitiveServices.Speech.csharp.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/SpeechSDK/Plugins/x86_64/Microsoft.CognitiveServices.Speech.csharp.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>F:/Unity Engine File 2/Editor/2019.3.5f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

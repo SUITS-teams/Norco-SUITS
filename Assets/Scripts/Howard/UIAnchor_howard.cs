@@ -19,9 +19,13 @@ public class UIAnchor_howard : MonoBehaviour {
     private Transform palmBonePosition;
     private Transform indexBonePosition;
 
-    //===== Queue method ================   CONFIRMED WORKS
+    //===== Queue method ================   CONFIRMED WORKS (kind of)
     private Transform frontChild;
     //===================================
+
+    //angle
+    float x_angle;
+    float y_angle;
 
     void Start() {
         pinkyBonePosition = GetComponent<OVRSkeleton> ().Bones[16].Transform;
@@ -36,7 +40,7 @@ public class UIAnchor_howard : MonoBehaviour {
     }
 
     void Update() {
-        if (panel1.transform.parent != null) { panel1.transform.position = new Vector3(pinkyBonePosition.position.x - 0.1f, pinkyBonePosition.position.y, pinkyBonePosition.position.z); }
+        if (panel1.transform.parent != null) { panel1.transform.position = new Vector3(pinkyBonePosition.position.x - 0.17f, pinkyBonePosition.position.y, pinkyBonePosition.position.z); }
         wristSlot.transform.position = new Vector3(wristBonePosition.position.x + 0.1f, wristBonePosition.position.y + 0.07f, wristBonePosition.position.z);
         //handUpChecker.transform.position = wristBonePosition.position;
         //handUpChecker.transform.rotation = wristBonePosition.rotation;
@@ -49,8 +53,8 @@ public class UIAnchor_howard : MonoBehaviour {
         //uncomment for position method use
         //palmSlot.transform.position = new Vector3(palmBonePosition.position.x, palmBonePosition.position.y, palmBonePosition.position.z);
 
-        float x_angle = indexBonePosition.rotation.x;
-        float y_angle = indexBonePosition.rotation.y;
+        x_angle = indexBonePosition.rotation.x;
+        y_angle = indexBonePosition.rotation.y;
 
         //===== Queue method ======================================================
         frontChild = UiRoot.transform.GetChild(0); //sets transform of first child to transform variable

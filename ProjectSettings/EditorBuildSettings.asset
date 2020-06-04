@@ -11,13 +11,19 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/HandUIDev.unity
     guid: 9a2601e6ae1ac3446bade5a96195d41a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/RoverMultiAstronaut/Launch.unity
     guid: 39ea0472fa91625469dc2568a8eda3f3
   - enabled: 0
     path: Assets/Scenes/RoverMultiAstronaut/RoverMultiAstronaut.unity
     guid: c25f245cc7ac09041a996d504b8386f2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GeologySite_Test.unity
     guid: 352c8112556bf4544bc0e3d998a867ea
+  - enabled: 0
+    path: Assets/Scenes/ObjectInteraction_Dev.unity
+    guid: 6c11b1a3320f7a448a7227ef7c92f904
+  - enabled: 1
+    path: Assets/Scenes/ahhadsLunarScene.unity
+    guid: 1598967a004faec45a3a96ef7e633724
   m_configObjects: {}

@@ -24,7 +24,7 @@ public class FirstPersonUi : MonoBehaviour
     //Nav Ui
     public GameObject compass;
 
-    //telemetry values
+    //telemetry values (NOTE: will be change to private in the final project)
     public float oxygenValue;
     public float batteryValue;
     public float waterValue;
@@ -48,7 +48,7 @@ public class FirstPersonUi : MonoBehaviour
         oxygenSlider.GetComponent<Image>().fillAmount = oxygenValue;
         waterSlider.GetComponent<Image>().fillAmount = waterValue;
         fanSlider.GetComponent<Image>().fillAmount = fanValue;
-        //check telemetry values to display approiate icon colors and bars (WIP)
+        //check telemetry values to display approiate icon colors and bars
         checkValueCondition(oxygenIcon, oxygenValue);
         checkValueCondition(waterIcon, waterValue);
         checkValueCondition(fanIcon, fanValue);

@@ -6,12 +6,13 @@ public class sizingMenu : MonoBehaviour
 {
     //boolean to toggle between press to max/min panel or two finger sizing; when applying script.
     public bool staticSizing = false;
+    public GameObject objToSize;
+    public float minimumScale = 1f;
+    public float maximumScale = 1.7f;
 
     //gameObject variables to store two first object entering the collider. Will be the two fingers to size UI.
-    public GameObject obj1;
-    public GameObject obj2;
-
-    public GameObject objToSize;
+    private GameObject obj1;
+    private GameObject obj2;
 
     private float iniPosition;
     private float newPosition;
@@ -20,7 +21,17 @@ public class sizingMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (obj1 != null && obj2 != null && staticSizing == false)
+        if (!staticSizing)
+        {
+            twoFingerSizing();
+        }
+    }
+
+
+
+    private void twoFingerSizing()
+    {
+        if (obj1 != null && obj2 != null)
         {
             newPosition = Vector3.Distance(obj1.transform.position, obj2.transform.position);
 
@@ -43,7 +54,7 @@ public class sizingMenu : MonoBehaviour
     {
         if (staticSizing)
         {
-            objToSize.transform.localScale = (objToSize.transform.localScale.x == 1f ? new Vector3(1.7f, 1.7f, 1.7f) : new Vector3(1f, 1f, 1f));
+            objToSize.transform.localScale = (objToSize.transform.localScale.x == minimumScale ? new Vector3(maximumScale, maximumScale, maximumScale) : new Vector3(minimumScale, minimumScale, minimumScale));
         }
         else
         {

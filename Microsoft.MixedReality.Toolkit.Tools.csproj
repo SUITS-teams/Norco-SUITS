@@ -55,22 +55,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Tools\AssemblyInfo.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Tools\DependencyWindow\DependencyWindow.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Tools\ExtensionServiceCreator\ExtensionServiceCreator.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Tools\ExtensionServiceCreator\ExtensionServiceWizard.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Tools\OptimizeWindow\MixedRealityOptimizeWindow.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Tools\ReserializeAssetsUtility\ReserializeAssetsUtility.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Tools\RuntimeTools\Inspectors\DisplayInputResultInspector.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Tools\ScreenshotUtility\ScreenshotUtility.cs" />
-     <Compile Include="Assets\MRTK\MixedRealityToolkit.Tools\TextureCombinerWindow\TextureCombinerWindow.cs" />
-     <None Include="Assets\MRTK\MixedRealityToolkit.Tools\ExtensionServiceCreator\Templates\ExtensionInterfaceTemplate.txt" />
-     <None Include="Assets\MRTK\MixedRealityToolkit.Tools\ExtensionServiceCreator\Templates\ExtensionInspectorTemplate.txt" />
-     <None Include="Assets\MRTK\MixedRealityToolkit.Tools\Version.txt" />
-     <None Include="Assets\MRTK\MixedRealityToolkit.Tools\ExtensionServiceCreator\Templates\ExtensionProfileTemplate.txt" />
-     <None Include="Assets\MRTK\MixedRealityToolkit.Tools\Microsoft.MixedReality.Toolkit.Tools.asmdef" />
-     <None Include="Assets\MRTK\MixedRealityToolkit.Tools\License.txt" />
-     <None Include="Assets\MRTK\MixedRealityToolkit.Tools\ExtensionServiceCreator\Templates\ExtensionScriptTemplate.txt" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\AssemblyInfo.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\DependencyWindow\DependencyWindow.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\ExtensionServiceCreator\ExtensionServiceCreator.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\ExtensionServiceCreator\ExtensionServiceWizard.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\OptimizeWindow\MixedRealityOptimizeWindow.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\ReserializeAssetsUtility\ReserializeAssetsUtility.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\RuntimeTools\Inspectors\DisplayInputResultInspector.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\ScreenshotUtility\ScreenshotUtility.cs" />
+     <Compile Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\TextureCombinerWindow\TextureCombinerWindow.cs" />
+     <None Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\ExtensionServiceCreator\Templates\ExtensionInterfaceTemplate.txt" />
+     <None Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\ExtensionServiceCreator\Templates\ExtensionInspectorTemplate.txt" />
+     <None Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\Version.txt" />
+     <None Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\ExtensionServiceCreator\Templates\ExtensionProfileTemplate.txt" />
+     <None Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\Microsoft.MixedReality.Toolkit.Tools.asmdef" />
+     <None Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\License.txt" />
+     <None Include="Assets\3rd Party\MRTK\MixedRealityToolkit.Tools\ExtensionServiceCreator\Templates\ExtensionScriptTemplate.txt" />
  <Reference Include="UnityEditor.UI">
  <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
@@ -276,19 +276,19 @@
  <HintPath>F:/Unity Engine File 2/Editor/2019.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.Windows.MixedReality.DotNetWinRT">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/Microsoft.Windows.MixedReality.DotNetWinRT.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/Microsoft.Windows.MixedReality.DotNetWinRT.dll</HintPath>
  </Reference>
  <Reference Include="System.Drawing.Primitives">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/System.Drawing.Primitives.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/MRTK/MixedRealityToolkit.Providers/WindowsMixedReality/DotNetAdapter/Plugins/netstandard2.0/System.Drawing.Primitives.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.CognitiveServices.Speech.csharp">
- <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/SpeechSDK/Plugins/x86_64/Microsoft.CognitiveServices.Speech.csharp.dll</HintPath>
+ <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Assets/3rd Party/SpeechSDK/Plugins/x86_64/Microsoft.CognitiveServices.Speech.csharp.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>F:/Unity Engine File 2/Projects/NASA SUITS/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
